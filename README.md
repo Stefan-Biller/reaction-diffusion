@@ -21,7 +21,9 @@ reaction_diffusion/
 ├── ReactionDiffusion.Test/         # Standalone test application
 │   ├── Program.cs
 │   └── README.md
+├── ReactionDiffusion.zip            # Precompiled component and dependencies
 └── README.md                        # This file
+
 ```
 
 ## Requirements
@@ -41,16 +43,24 @@ reaction_diffusion/
 
 ### Using in Grasshopper
 
-1. Build the project:
+1. Either use the provided files in the `ReactionDiffusion.zip` file.
+
+   Or build the project:
 
    ```bash
    dotnet build -c Release
    ```
 
-2. Copy `ReactionDiffusion.gha` from `bin/Release/net8.0-windows/` to your Grasshopper Components folder:
+2. Copy `ReactionDiffusion.gha`, `ComputeSharp.Core.dll` and `ComputeSharp.dll` into a Grasshopper Components folder:
 
    ```
    %APPDATA%\Grasshopper\Libraries\
+   ```
+
+   or
+
+   ```
+   %APPDATA%\Grasshopper\Libraries\Simulation\
    ```
 
 3. Restart Rhino/Grasshopper
