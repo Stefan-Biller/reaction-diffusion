@@ -1,4 +1,4 @@
-# ReactionDiffusion - GPU-Accelerated Gray-Scott Simulation
+# ReactionDiffusion in Grasshopper - GPU-Accelerated Gray-Scott Simulation Component
 
 A reaction-diffusion simulation in a Grasshopper Component or standalone Console App using GPU compute shaders via ComputeSharp.
 
