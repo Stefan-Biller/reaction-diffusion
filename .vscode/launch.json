@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rhino 8 - netcore",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "D:\\Program Files\\Rhino 8\\System\\Rhino.exe",
+      "args": ["/netcore", "/nosplash", "/runscript=\"_Grasshopper\""],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "env": {
+        "RHINO_PACKAGE_DIRS": "${workspaceFolder}\\ReactionDiffusion\\bin\\Debug\\net8.0-windows\\"
+      }
+    }
+  ]
+}

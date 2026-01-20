@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "-f",
+        "net8.0-windows",
+        "${workspaceFolder}/ReactionDiffusion.ghAssembly/ReactionDiffusion.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
